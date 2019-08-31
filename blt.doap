@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns="http://usefulinc.com/ns/doap#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:foaf="http://xmlns.com/foaf/0.1/">
+	<name>blt</name>
+	<created>2019-09-01</created>
+	<programming-language>C++</programming-language>
+	<license rdf:resource="https://opensource.org/licenses/MIT" />
+
+	<homepage rdf:resource="https://gitlab.com/kosmospredanie/blt" />
+	<download-page rdf:resource="https://gitlab.com/kosmospredanie/blt/tags" />
+	<bug-database rdf:resource="https://gitlab.com/kosmospredanie/blt/issues" />
+
+	<shortdesc xml:lang="en">Just a bullet game</shortdesc>
+
+	<maintainer>
+		<foaf:Person>
+			<foaf:name>Космос Преда́ние</foaf:name>
+			<foaf:mbox rdf:resource="mailto:kosmospredanie@yandex.ru" />
+		</foaf:Person>
+	</maintainer>
+</Project>

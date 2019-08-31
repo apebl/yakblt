@@ -1,0 +1,99 @@
+#ifndef __BLT_NODE_H__
+#define __BLT_NODE_H__
+
+#include <vector>
+#include <SFML/System.hpp>
+#include <SFML/Graphics.hpp>
+
+using namespace std;
+using namespace sf;
+
+namespace blt {
+	/**
+	 * @note Nodes hold the ownership of the children.
+	 */
+	class Node : public Transformable {
+	public:
+		Node ();
+		virtual ~Node () override;
+
+		void updateTransforms ();
+		virtual void updateSelfTransforms ();
+		/**
+		 * Updates this node.
+		 *
+		 * This method will be called every frame.
+		 *
+		 * @param delta The elapsed time, in seconds.
+		 */
+		virtual void update (float delta);
+		virtual void draw (RenderTarget &target);
+		virtual void drawDebug (RenderTarget &target);
+
+		Node *getParent () const;
+		Node *getRoot ();
+		const vector<Node*> &getChildren () const;
+		Node &getChildAt (size_t idx) const;
+		size_t numChildren () const;
+		bool hasChild (const Node &node);
+		void addChild (Node &node);
+		/**
+		 * @return true if removed, false otherwise.
+		 */
+		bool removeChild (Node &node);
+		/**
+		 * @return The removed child, or null if no one removed.
+		 */
+		Node *removeChildAt (size_t idx);
+		void removeAllChildren ();
+		void removeFromParent ();
+
+		size_t getChildIndex (const Node &node) const;
+		void setChildIndex (Node &node, size_t index);
+		void swapChildren (Node &a, Node &b);
+
+		/**
+		 * @note You should call Node::update(float) before this method.
+		 */
+		const Transform &getGlobalTransform () const;
+		/**
+		 * Gets the untransformed size of the node, excluding
+		 * its children.
+		 *
+		 * @return The size
+		 */
+		virtual Vector2f getContentSize () const;
+		virtual void setContentSize (const Vector2f &size);
+		Vector2f getSize () const;
+
+		/**
+		 * @note You should call Node::update(float) before this method.
+		 */
+		Vector2f localToGlobal (const Vector2f &vec) const;
+		/**
+		 * @note You should call Node::update(float) before this method.
+		 */
+		Vector2f globalToLocal (const Vector2f &vec) const;
+		/**
+		 * @note You should call Node::update(float) before this method.
+		 *
+		 * @param[in] target The target coordinates, or null if global
+		 * coordinates.
+		 * @param vec A vector to be converted
+		 */
+		Vector2f localTo (const Node *target, const Vector2f &vec) const;
+		Vector2f globalToParent (const Vector2f &vec) const;
+
+	protected:
+		virtual void onUpdate (float delta);
+		virtual void onDraw (RenderTarget &target);
+		virtual void onDrawDebug (RenderTarget &target);
+
+	private:
+		Node *_parent;
+		vector<Node*> _children;
+		Transform _globalTransform;
+	};
+}
+
+#endif

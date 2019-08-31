@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Blt
+Comment=Just a bullet game
+Exec="@install_path@/blt"
+Path=@install_path@
+Terminal=false
+Type=Application
+Icon=@install_path@/icon.svg
+Categories=Game;
