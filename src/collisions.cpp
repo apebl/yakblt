@@ -1,7 +1,7 @@
 #include "collisions.hpp"
 #include "utils.hpp"
 
-namespace blt {
+namespace yakblt {
 	/* class Collidable */
 
 	Collidable::Collidable () :

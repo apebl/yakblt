@@ -4,7 +4,7 @@
 
 using namespace std;
 
-namespace blt {
+namespace yakblt {
 	Random::Random () {
 		default_random_engine engine( std::chrono::system_clock::now().time_since_epoch().count() );
 		uniform_real_distribution<float> distribution(0.0f, 1.0f);

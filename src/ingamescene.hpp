@@ -4,7 +4,7 @@
 #include "scene.hpp"
 #include "world.hpp"
 
-namespace blt {
+namespace yakblt {
 	class InGameScene : public Scene {
 	public:
 		InGameScene ();

@@ -3,7 +3,7 @@
 
 #include "node.hpp"
 
-namespace blt {
+namespace yakblt {
 	class Effect : public Node {
 	public:
 		Effect (int lifespan);

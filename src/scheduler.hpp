@@ -3,7 +3,7 @@
 
 #include "event.hpp"
 
-namespace blt {
+namespace yakblt {
 	class Scheduler {
 	public:
 		Scheduler (int frameInterval = 0);

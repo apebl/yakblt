@@ -9,7 +9,7 @@ namespace {
 	const float damage = 0.5f;
 }
 
-namespace blt {
+namespace yakblt {
 	PlayerBullet::PlayerBullet () :
 			Bullet(*new CircleCollidable(Circle(0, 0, 8)), PLAYER),
 			_sprite( app().assets().loadTexture(FIGHTER_BULLET) )

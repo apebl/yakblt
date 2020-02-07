@@ -3,7 +3,7 @@
 
 #include "../bullet.hpp"
 
-namespace blt {
+namespace yakblt {
 	class PinkBullet : public Bullet {
 	public:
 		PinkBullet ();

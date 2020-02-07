@@ -4,7 +4,7 @@
 #include "node.hpp"
 #include "event.hpp"
 
-namespace blt {
+namespace yakblt {
 	class Scene {
 	public:
 		Scene ();

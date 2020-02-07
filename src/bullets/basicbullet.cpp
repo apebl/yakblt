@@ -7,7 +7,7 @@ namespace {
 	const float speed = 2.5f;
 }
 
-namespace blt {
+namespace yakblt {
 	BasicBullet::BasicBullet () :
 			Bullet(*new CircleCollidable(Circle(0, 0, 4)), ENEMY),
 			_sprite( app().assets().loadTexture(BASIC_BULLET) )

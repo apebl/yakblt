@@ -5,7 +5,7 @@
 #include "scripter.hpp"
 #include "event.hpp"
 
-namespace blt {
+namespace yakblt {
 	class Bullet;
 
 	class Unit : public GridEntity<Unit> {

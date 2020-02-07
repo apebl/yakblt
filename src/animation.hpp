@@ -10,7 +10,7 @@
 using namespace std;
 using namespace sf;
 
-namespace blt {
+namespace yakblt {
 	class Animation : public Sprite {
 	public:
 		Animation (const Texture &texture, const Vector2u &tileSize);

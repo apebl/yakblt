@@ -20,26 +20,26 @@ namespace {
 		if(!up && !down && !left && right) {
 			return 0.0f;
 		} else if(!up && down && !left && right) {
-			return blt::deg2rad(45.0f);
+			return yakblt::deg2rad(45.0f);
 		} else if(!up && down && !left && !right) {
-			return blt::deg2rad(90.0f);
+			return yakblt::deg2rad(90.0f);
 		} else if(!up && down && left && !right) {
-			return blt::deg2rad(135.0f);
+			return yakblt::deg2rad(135.0f);
 		} else if(!up && !down && left && !right) {
-			return blt::deg2rad(180.0f);
+			return yakblt::deg2rad(180.0f);
 		} else if(up && !down && left && !right) {
-			return blt::deg2rad(225.0f);
+			return yakblt::deg2rad(225.0f);
 		} else if(up && !down && !left && !right) {
-			return blt::deg2rad(270.0f);
+			return yakblt::deg2rad(270.0f);
 		} else if(up && !down && !left && right) {
-			return blt::deg2rad(315.0f);
+			return yakblt::deg2rad(315.0f);
 		} else {
 			return numeric_limits<float>::quiet_NaN();
 		}
 	}
 }
 
-namespace blt {
+namespace yakblt {
 	/* class Player */
 
 	Player::Player (Collidable &collidable) :
@@ -100,13 +100,13 @@ namespace blt {
 
 		Bullet *bullet = app().bulletFac().get("player-bullet");
 		ASSERT(bullet != nullptr)
-		bullet->setPosition( pos + blt::rotate(Vector2f(0, -7), rot*DEG_TO_RAD) );
+		bullet->setPosition( pos + yakblt::rotate(Vector2f(0, -7), rot*DEG_TO_RAD) );
 		bullet->setRotation(rot);
 		app().world().addBullet(*bullet);
 
 		bullet = app().bulletFac().get("player-bullet");
 		ASSERT(bullet != nullptr)
-		bullet->setPosition( pos + blt::rotate(Vector2f(0, 7), rot*DEG_TO_RAD) );
+		bullet->setPosition( pos + yakblt::rotate(Vector2f(0, 7), rot*DEG_TO_RAD) );
 		bullet->setRotation(rot);
 		app().world().addBullet(*bullet);
 	}

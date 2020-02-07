@@ -1,7 +1,7 @@
 #include "strutils.hpp"
 #include <algorithm>
 
-namespace blt {
+namespace yakblt {
 	void ltrim (std::string &s) {
 		s.erase( s.begin(), std::find_if(s.begin(), s.end(),
 				not1(std::ptr_fun<int, int>(isspace))) );

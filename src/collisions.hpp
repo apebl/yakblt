@@ -10,7 +10,7 @@
 using namespace std;
 using namespace sf;
 
-namespace blt {
+namespace yakblt {
 	enum CollidableType {
 		CIRCLE,
 		RECT

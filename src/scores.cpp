@@ -15,7 +15,7 @@ namespace {
 
 	long _score = 0;
 	long _captured = 0;
-	const string file = ".blt-scores.txt";
+	const string file = ".yakblt-scores.txt";
 
 	bool comp (tuple<string, long> &a, tuple<string, long> &b) {
 		return get<1>(a) > get<1>(b);
@@ -48,7 +48,7 @@ namespace {
 	}
 }
 
-namespace blt {
+namespace yakblt {
 	namespace Scores {
 		long get () {
 			return _score;

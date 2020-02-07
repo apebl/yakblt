@@ -4,7 +4,7 @@ namespace {
 	const float THICKNESS = 1.0f;
 }
 
-namespace blt {
+namespace yakblt {
 	ShapeRenderer::ShapeRenderer () :
 			_target(nullptr),
 			_transform(),

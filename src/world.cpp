@@ -4,7 +4,7 @@
 #include "app.hpp"
 #include <cmath>
 
-namespace blt {
+namespace yakblt {
 	World::World () {
 		for (int i = 0; i < 6; i++) {
 			addChild( *new Node() );

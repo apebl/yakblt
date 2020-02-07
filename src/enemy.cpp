@@ -6,7 +6,7 @@ namespace {
 	const float restraintAreaScale = 1.8f;
 }
 
-namespace blt {
+namespace yakblt {
 	Enemy::Enemy (Collidable &collidable) :
 			Unit(collidable)
 	{

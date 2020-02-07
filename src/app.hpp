@@ -11,7 +11,7 @@
 #include "scene.hpp"
 #include "world.hpp"
 
-namespace blt {
+namespace yakblt {
 	class App {
 	public:
 		App (RenderWindow &window);

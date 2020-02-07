@@ -3,7 +3,7 @@
 #include <memory>
 #include "utils.hpp"
 
-namespace blt {
+namespace yakblt {
 	/* class Node */
 
 	Node::Node () : Transformable(),

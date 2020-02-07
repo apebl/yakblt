@@ -4,7 +4,7 @@
 #include "../app.hpp"
 #include "../math.hpp"
 
-namespace blt {
+namespace yakblt {
 	void BasicPattern::init () {
 		loop([] { return true; }, [this] {
 			for (int i = 0; i < 10; i++) {

@@ -3,7 +3,7 @@
 
 #include "unit.hpp"
 
-namespace blt {
+namespace yakblt {
 	class Enemy : public Unit {
 	public:
 		Enemy (Collidable &collidable);

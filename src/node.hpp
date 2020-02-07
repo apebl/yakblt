@@ -8,7 +8,7 @@
 using namespace std;
 using namespace sf;
 
-namespace blt {
+namespace yakblt {
 	/**
 	 * @note Nodes hold the ownership of the children.
 	 */

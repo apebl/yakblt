@@ -8,7 +8,7 @@ namespace {
 	const int lifespan = FRAMERATE / 2;
 }
 
-namespace blt {
+namespace yakblt {
 	MineExplosion::MineExplosion () :
 		Effect(lifespan),
 		_anim( app().assets().loadTexture(MINE_EXPLOSION), Vector2u(53, 53) )

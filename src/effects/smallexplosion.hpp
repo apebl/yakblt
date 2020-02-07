@@ -4,7 +4,7 @@
 #include "../effect.hpp"
 #include "../animation.hpp"
 
-namespace blt {
+namespace yakblt {
 	class SmallExplosion : public Effect {
 	public:
 		SmallExplosion ();

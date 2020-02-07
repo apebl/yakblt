@@ -11,7 +11,7 @@
  * This macro is defined if debug mode is enabled.
  */
 
-#define TITLE "blt: Just A Bullet Game"
+#define TITLE "yakblt: Just A Bullet Game"
 #define WINDOW_WIDTH 1280
 #define WINDOW_HEIGHT 720
 #define VSYNC false

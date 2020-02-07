@@ -3,7 +3,7 @@
 
 #include "gridentity.hpp"
 
-namespace blt {
+namespace yakblt {
 	enum OwnerType {
 		PLAYER,
 		ENEMY

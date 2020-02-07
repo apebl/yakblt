@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=Blt
-Comment=Just a bullet game
-Exec="@install_path@/blt"
+Name=Yakblt
+Comment=Just a simple bullet game
+Exec="@install_path@/yakblt"
 Path=@install_path@
 Terminal=false
 Type=Application

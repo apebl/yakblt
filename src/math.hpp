@@ -14,7 +14,7 @@ using namespace sf;
 #define RAD_TO_DEG (180.0 / PI)
 #define DEG_TO_RAD (PI / 180.0)
 
-namespace blt {
+namespace yakblt {
 	class Circle {
 	public:
 		Circle (float x = 0, float y = 0, float radius = 0);

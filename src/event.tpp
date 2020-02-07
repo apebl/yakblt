@@ -1,6 +1,6 @@
 #include "event.hpp"
 
-namespace blt {
+namespace yakblt {
 	template <typename... A>
 	Event<A...>::Event () : _next(0), _handlers() {
 	}

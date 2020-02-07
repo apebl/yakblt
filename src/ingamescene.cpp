@@ -2,7 +2,7 @@
 #include "globals.hpp"
 #include "app.hpp"
 
-namespace blt {
+namespace yakblt {
 	InGameScene::InGameScene () : _world(nullptr) {
 	}
 

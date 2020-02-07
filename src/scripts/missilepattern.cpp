@@ -4,7 +4,7 @@
 #include "../app.hpp"
 #include "../math.hpp"
 
-namespace blt {
+namespace yakblt {
 	void MissilePattern::init () {
 		loop([] { return true; }, [this] {
 			for (int i = 0; i < 5; i++) {

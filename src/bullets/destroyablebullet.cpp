@@ -1,6 +1,6 @@
 #include "destroyablebullet.hpp"
 
-namespace blt {
+namespace yakblt {
 	DestroyableBullet::DestroyableBullet (
 			Collidable &collidable, OwnerType owner) :
 		Bullet(collidable, owner), _health(0)

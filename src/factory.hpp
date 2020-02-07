@@ -12,7 +12,7 @@
 
 using namespace std;
 
-namespace blt {
+namespace yakblt {
 	template <typename T>
 	class Factory {
 	public:

@@ -97,7 +97,7 @@ if get_option('debug_mode')
 	cpp_args += '-DDEBUG'
 endif
 
-blt_exe = executable('blt', sources,
+yakblt_exe = executable('yakblt', sources,
 	dependencies: dependencies,
 	cpp_args: cpp_args,
 	install: true,
@@ -105,5 +105,5 @@ blt_exe = executable('blt', sources,
 )
 
 meson.add_install_script('ln', '-fs',
-	get_option('prefix') / install_dir / 'blt',
-	get_option('prefix') / get_option('bindir') / 'blt')
+	get_option('prefix') / install_dir / 'yakblt',
+	get_option('prefix') / get_option('bindir') / 'yakblt')

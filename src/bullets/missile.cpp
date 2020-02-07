@@ -15,7 +15,7 @@ namespace {
 	const float vibration = 5;
 }
 
-namespace blt {
+namespace yakblt {
 	Missile::Missile () :
 			DestroyableBullet(*new CircleCollidable(Circle(0, 0, 4.5f)), ENEMY),
 			_anim( app().assets().loadTexture(MISSILE), Vector2u(64, 25) ),

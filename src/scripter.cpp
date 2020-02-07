@@ -11,7 +11,7 @@ namespace {
 	}
 }
 
-namespace blt {
+namespace yakblt {
 	/* class Scripter */
 
 	Scripter::Action::Action () {

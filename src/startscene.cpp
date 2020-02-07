@@ -5,9 +5,9 @@
 #include "assets.hpp"
 #include "mainscene.hpp"
 
-using namespace blt;
+using namespace yakblt;
 
-namespace blt {
+namespace yakblt {
 	StartScene::StartScene () : _gui( window() )
 	{
 		const Font &font = app().assets().loadFont(FONT);

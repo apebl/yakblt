@@ -3,7 +3,7 @@
 #include "app.hpp"
 #include "bullet.hpp"
 
-namespace blt {
+namespace yakblt {
 	Unit::Unit (Collidable &collidable) :
 			GridEntity<Unit>(collidable),
 			_isDead(false),

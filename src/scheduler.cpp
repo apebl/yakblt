@@ -1,6 +1,6 @@
 #include "scheduler.hpp"
 
-namespace blt {
+namespace yakblt {
 	Scheduler::Scheduler (int frameInterval) :
 			frameInterval(frameInterval),
 			_current(0),

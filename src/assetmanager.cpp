@@ -1,6 +1,6 @@
 #include "assetmanager.hpp"
 
-namespace blt {
+namespace yakblt {
 	/* class StreamResolver */
 
 	StreamResolver::~StreamResolver () {

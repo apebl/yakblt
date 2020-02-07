@@ -7,7 +7,7 @@
 #include "resultscene.hpp"
 #include <sstream>
 
-using namespace blt;
+using namespace yakblt;
 
 namespace {
 	const int duration = FRAMERATE * 2;
@@ -19,7 +19,7 @@ namespace {
 	}
 }
 
-namespace blt {
+namespace yakblt {
 	MainGUI::MainGUI (World &world) :
 			_world(&world), _sceneChanging(false), _time(0)
 	{

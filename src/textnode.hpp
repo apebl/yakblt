@@ -3,7 +3,7 @@
 
 #include "node.hpp"
 
-namespace blt {
+namespace yakblt {
 	/**
 	 * @note TextNodes hold the ownership of the text.
 	 * @note TextNodes don't hold the ownership of the font.

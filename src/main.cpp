@@ -20,7 +20,7 @@ namespace {
 	void resize (RenderWindow &window, unsigned int width, unsigned int height) {
 		window.setView( View(FloatRect(0, 0, width, height)) );
 
-		blt::App &app = blt::app();
+		yakblt::App &app = yakblt::app();
 		Vector2f size = Vector2f(width, height);
 		app.background().setContentSize(size);
 
@@ -37,12 +37,12 @@ namespace {
 		RenderWindow *window = new RenderWindow(mode, TITLE);
 		window->setVerticalSyncEnabled(VSYNC);
 		window->setFramerateLimit(FRAMERATE);
-		blt::setWindow(*window);
+		yakblt::setWindow(*window);
 	}
 
 	void initApp () {
-		blt::App *app = new blt::App( blt::window() );
-		blt::setApp(*app);
+		yakblt::App *app = new yakblt::App( yakblt::window() );
+		yakblt::setApp(*app);
 		const Vector2f &view = app->window().getView().getSize();
 		resize(app->window(), view.x, view.y);
 	}
@@ -54,8 +54,8 @@ namespace {
 
 	void initScene () {
 		initGuiTheme();
-		blt::StartScene *scene = new blt::StartScene();
-		blt::app().replaceScene(scene);
+		yakblt::StartScene *scene = new yakblt::StartScene();
+		yakblt::app().replaceScene(scene);
 	}
 
 	void handleEvent (RenderWindow &window, Event &event) {
@@ -69,17 +69,17 @@ namespace {
 		default:
 			break;
 		}
-		blt::app().onSfmlEvent().fireEvent(event);
+		yakblt::app().onSfmlEvent().fireEvent(event);
 	}
 
 	void render (RenderWindow &window) {
 		window.clear();
-		blt::app().render(window);
+		yakblt::app().render(window);
 		window.display();
 	}
 
 	void loop () {
-		RenderWindow &window = blt::window();
+		RenderWindow &window = yakblt::window();
 		while ( window.isOpen() ) {
 			Event event;
 			while ( window.pollEvent(event) ) {
@@ -90,9 +90,9 @@ namespace {
 	}
 
 	void dispose () {
-		blt::App *app = &blt::app();
+		yakblt::App *app = &yakblt::app();
 		delete app;
-		RenderWindow *window = &blt::window();
+		RenderWindow *window = &yakblt::window();
 		delete window;
 	}
 }

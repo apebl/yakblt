@@ -3,7 +3,7 @@
 
 #include "../scripter.hpp"
 
-namespace blt {
+namespace yakblt {
 	class MissilePattern : public Scripter {
 	public:
 		virtual void init () override;

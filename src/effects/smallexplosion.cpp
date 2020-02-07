@@ -8,7 +8,7 @@ namespace {
 	const int lifespan = 64;
 }
 
-namespace blt {
+namespace yakblt {
 	SmallExplosion::SmallExplosion () :
 		Effect(lifespan),
 		_anim( app().assets().loadTexture(EXPLOSION), Vector2u(128, 128) )

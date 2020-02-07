@@ -5,7 +5,7 @@
 
 using namespace sf;
 
-namespace blt {
+namespace yakblt {
 	class App;
 
 	RenderWindow &window ();

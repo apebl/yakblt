@@ -2,7 +2,7 @@
 #include "globals.hpp"
 #include "app.hpp"
 
-namespace blt {
+namespace yakblt {
 	Effect::Effect (int lifespan) :
 		_lifespan(lifespan),
 		_isDead(false)

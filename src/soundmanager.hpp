@@ -7,7 +7,7 @@
 using namespace std;
 using namespace sf;
 
-namespace blt {
+namespace yakblt {
 	/*
 	 * @note SoundManagers hold the ownership of the sounds.
 	 */

@@ -9,7 +9,7 @@
 using namespace std;
 using namespace sf;
 
-namespace blt {
+namespace yakblt {
 	class StreamResolver {
 	public:
 		virtual ~StreamResolver ();

@@ -1,4 +1,4 @@
-# Building blt
+# Building yakblt
 
 ## Build requirements
 
@@ -13,6 +13,7 @@
 	- sfml-graphics
 	- sfml-audio
 - tgui >= 0.8
+- libgnome-games-support >= 1.4.4
 
 ### Install dependencies
 
@@ -34,7 +35,7 @@ yay -S tgui # yay is an AUR helper
 ## Build
 
 ```sh
-cd blt
+cd yakblt
 meson _build --buildtype=release
 ninja -C _build
 ```
@@ -42,7 +43,7 @@ ninja -C _build
 And run the game:
 
 ```sh
-_build/src/blt
+_build/src/yakblt
 ```
 
 ### Debug mode
@@ -70,6 +71,6 @@ build.
 
 ```sh
 ninja -C _build uninstall
-rm <prefix>/<datadir>/applications/blt.desktop
-rm <prefix>/<bindir>/blt
+rm <prefix>/<datadir>/applications/yakblt.desktop
+rm <prefix>/<bindir>/yakblt
 ```

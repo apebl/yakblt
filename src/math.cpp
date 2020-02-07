@@ -1,6 +1,6 @@
 #include "math.hpp"
 
-namespace blt {
+namespace yakblt {
 	/* class Circle */
 
 	Circle::Circle (float x, float y, float radius) :
@@ -173,7 +173,7 @@ namespace blt {
 	}
 
 	Vector2f rect (FloatRect rect, float t) {
-		return Vector2f(rect.left, rect.top) + blt::rect(rect.width, rect.height, t);
+		return Vector2f(rect.left, rect.top) + yakblt::rect(rect.width, rect.height, t);
 	}
 
 	Vector2f ellipse (float width, float height, float t) {

@@ -4,7 +4,7 @@
 #include "scene.hpp"
 #include <TGUI/TGUI.hpp>
 
-namespace blt {
+namespace yakblt {
 	class StartScene : public Scene {
 	public:
 		StartScene ();

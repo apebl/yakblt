@@ -1,6 +1,6 @@
 #include "spritenode.hpp"
 
-namespace blt {
+namespace yakblt {
 	SpriteNode::SpriteNode () {
 		_sprite = new Sprite();
 	}

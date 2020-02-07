@@ -7,7 +7,7 @@
 
 using namespace std;
 
-namespace blt {
+namespace yakblt {
 	namespace Scores {
 		long get ();
 		void add (long score);

@@ -4,7 +4,7 @@
 #include "utils.hpp"
 #include "shaperenderer.hpp"
 
-namespace blt {
+namespace yakblt {
 	/* class Grid */
 
 	template<typename T>

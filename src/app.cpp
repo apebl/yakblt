@@ -4,7 +4,7 @@
 #include "assets.hpp"
 #include <SFML/OpenGL.hpp>
 
-using namespace blt;
+using namespace yakblt;
 
 namespace {
 	void scissorRoot (Node &root) {
@@ -22,7 +22,7 @@ namespace {
 	}
 }
 
-namespace blt {
+namespace yakblt {
 	App::App (RenderWindow &window) :
 			_window(&window),
 			_assets( *(new DefaultResolver()) ),

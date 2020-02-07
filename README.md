@@ -1,12 +1,12 @@
-# blt: Just A Bullet Game
+# yakblt: Just a simple bullet game
 
 [![Short video](short-mov.gif)](short-mov.mp4)
 
 [![Example pattern](pattern.gif)](pattern.mp4)
 
-A shoot 'em up game written in C++.
+A simple shoot 'em up game written in C++.
 
-I made it for an assignment a few years ago.
+I made it for an assignment in the past.
 
 ## How to play
 
@@ -23,10 +23,6 @@ I made it for an assignment a few years ago.
 ## Install
 
 See the [installation guide](INSTALL.md).
-
-## Notes
-
-I purposely didn't use smart pointers to practice manual memory management.
 
 ## License
 

@@ -4,7 +4,7 @@
 #include "unit.hpp"
 #include "spritenode.hpp"
 
-namespace blt {
+namespace yakblt {
 	class Player : public Unit {
 	public:
 		Player (Collidable &collidable);

@@ -8,7 +8,7 @@
 using namespace std;
 using namespace sf;
 
-namespace blt {
+namespace yakblt {
 	template <typename T>
 	class Grid;
 

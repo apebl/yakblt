@@ -7,9 +7,9 @@
 #include "strutils.hpp"
 #include <sstream>
 
-using namespace blt;
+using namespace yakblt;
 
-namespace blt {
+namespace yakblt {
 	ResultScene::ResultScene () : _gui( window() )
 	{
 		const Font &font = app().assets().loadFont(FONT);

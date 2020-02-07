@@ -1,6 +1,6 @@
 #include "scene.hpp"
 
-namespace blt {
+namespace yakblt {
 	Scene::Scene () : _onSfmlEvent() {
 	}
 

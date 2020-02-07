@@ -8,7 +8,7 @@ namespace {
 	const int lifespan = 64;
 }
 
-namespace blt {
+namespace yakblt {
 	PlayerExplosion::PlayerExplosion () :
 		Effect(lifespan),
 		_anim( app().assets().loadTexture(PLAYER_EXPLOSION), Vector2u(128, 128) )

@@ -3,7 +3,7 @@
 
 #include "node.hpp"
 
-namespace blt {
+namespace yakblt {
 	/**
 	 * @note SpriteNodes hold the ownership of the sprite.
 	 * @note SpriteNodes don't hold the ownership of the texture.

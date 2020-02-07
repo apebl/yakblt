@@ -7,7 +7,7 @@ namespace {
 	const float speed = 6;
 }
 
-namespace blt {
+namespace yakblt {
 	PinkBullet::PinkBullet () :
 			Bullet(*new CircleCollidable(Circle(0, 0, 4)), ENEMY),
 			_sprite( app().assets().loadTexture(PINK_BULLET) )

@@ -7,7 +7,7 @@ namespace {
 	const float restraintAreaScale = 1.8f;
 }
 
-namespace blt {
+namespace yakblt {
 	Bullet::Bullet (Collidable &collidable, OwnerType owner) :
 			GridEntity<Bullet>(collidable),
 			_ownerType(owner),

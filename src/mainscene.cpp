@@ -7,7 +7,7 @@
 #include "player.hpp"
 #include "scripts/mainscripter.hpp"
 
-namespace blt {
+namespace yakblt {
 	MainScene::MainScene () : _scheduler(FRAMERATE / 10) {
 		_scheduler.onRun().addHandler([] {
 			Scores::add(1);

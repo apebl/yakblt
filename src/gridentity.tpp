@@ -2,7 +2,7 @@
 #include "utils.hpp"
 #include "shaperenderer.hpp"
 
-namespace blt {
+namespace yakblt {
 	/* class GridEntity */
 
 	template <typename T>

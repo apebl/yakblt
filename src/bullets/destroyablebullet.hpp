@@ -3,7 +3,7 @@
 
 #include "../bullet.hpp"
 
-namespace blt {
+namespace yakblt {
 	class DestroyableBullet : public Bullet {
 	public:
 		DestroyableBullet (Collidable &collidable, OwnerType owner);

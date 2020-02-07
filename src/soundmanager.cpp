@@ -1,7 +1,7 @@
 #include "soundmanager.hpp"
 #include "utils.hpp"
 
-namespace blt {
+namespace yakblt {
 	SoundManager::SoundManager () :
 		_sounds(), _musics(), _paused(false), _fade(1.0f)
 	{

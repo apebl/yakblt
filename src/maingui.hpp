@@ -5,7 +5,7 @@
 #include "world.hpp"
 #include "textnode.hpp"
 
-namespace blt {
+namespace yakblt {
 	class MainGUI : public Node {
 	public:
 		MainGUI (World &world);

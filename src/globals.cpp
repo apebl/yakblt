@@ -2,10 +2,10 @@
 
 namespace {
 	sf::RenderWindow *_window;
-	blt::App *_app;
+	yakblt::App *_app;
 }
 
-namespace blt {
+namespace yakblt {
 	RenderWindow &window () {
 		return *_window;
 	}

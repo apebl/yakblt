@@ -20,7 +20,7 @@ namespace {
 	}
 }
 
-namespace blt {
+namespace yakblt {
 	Animation::Animation (const Texture &texture,
 								const Vector2u &tileSize) :
 			Sprite(texture),

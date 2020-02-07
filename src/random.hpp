@@ -9,7 +9,7 @@
 
 using namespace std;
 
-namespace blt {
+namespace yakblt {
 	class Random {
 	public:
 		Random ();

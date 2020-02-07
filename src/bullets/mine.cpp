@@ -6,7 +6,7 @@
 #include "../scores.hpp"
 #include "../effects/mineexplosion.hpp"
 
-using namespace blt;
+using namespace yakblt;
 
 namespace {
 	const float speed = 1;
@@ -23,7 +23,7 @@ namespace {
 	}
 }
 
-namespace blt {
+namespace yakblt {
 	Mine::Mine () :
 			DestroyableBullet(*new CircleCollidable(Circle(0, 0, 12)), ENEMY),
 			_sprite( app().assets().loadTexture(MINE) ),
@@ -47,7 +47,7 @@ namespace blt {
 
 	void Mine::control () {
 		if( isDead() ) return;
-		float dist = blt::dist(getPosition(), _dest);
+		float dist = yakblt::dist(getPosition(), _dest);
 		if (dist < 2.0f) return;
 		float rot = angleTo(getPosition(), _dest);
 		move(angleVector(rot) * speed);

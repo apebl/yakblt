@@ -16,7 +16,7 @@
 using namespace std;
 using namespace sf;
 
-namespace blt {
+namespace yakblt {
 	class World : public Node, public ScripterContainer {
 	public:
 		World ();

@@ -5,7 +5,7 @@
 #include "../scheduler.hpp"
 #include "../animation.hpp"
 
-namespace blt {
+namespace yakblt {
 	class Missile : public DestroyableBullet {
 	public:
 		Missile ();

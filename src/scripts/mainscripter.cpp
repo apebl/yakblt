@@ -6,7 +6,7 @@
 #include "missilepattern.hpp"
 #include "minepattern.hpp"
 
-namespace blt {
+namespace yakblt {
 	void MainScripter::init () {
 		wait(1);
 		run([this] {

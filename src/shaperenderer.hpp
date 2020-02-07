@@ -7,7 +7,7 @@
 using namespace std;
 using namespace sf;
 
-namespace blt {
+namespace yakblt {
 	class ShapeRenderer {
 	public:
 		enum ShapeType {

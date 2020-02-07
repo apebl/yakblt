@@ -1,6 +1,6 @@
 #include "textnode.hpp"
 
-namespace blt {
+namespace yakblt {
 	TextNode::TextNode (Text &text) {
 		_text = &text;
 	}

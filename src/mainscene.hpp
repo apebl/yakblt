@@ -5,7 +5,7 @@
 #include "scheduler.hpp"
 #include "maingui.hpp"
 
-namespace blt {
+namespace yakblt {
 	class MainScene : public InGameScene {
 	public:
 		MainScene ();
