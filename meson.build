@@ -1,7 +1,7 @@
 project('yakblt', 'cpp',
 	version: '2019.08.31',
 	license: 'MIT',
-	meson_version: '>=0.49.0',
+	meson_version: '>=0.50.0',
 	default_options : ['cpp_std=c++14'])
 
 app_id = 'org.kosmospredanie.Yakblt'
