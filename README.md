@@ -1,12 +1,10 @@
-# yakblt: Just a simple bullet game
+# yakblt
 
 [![Short video](short-mov.gif)](short-mov.mp4)
 
-[![Example pattern](pattern.gif)](pattern.mp4)
+A simple bullet-dodging game written in C++.
 
-A simple shoot 'em up game written in C++.
-
-I made it for an assignment in the past.
+I made it for a simple assignment in the past.
 
 ## How to play
 
@@ -14,7 +12,7 @@ I made it for an assignment in the past.
 - Rotation: The airplane looks at the mouse position
 - Attack: Keep left mouse button pressed down
 
-## Notable features
+## Features
 
 - Scene graph
 - Grid spatial partitioning (Tiled collision detection)
