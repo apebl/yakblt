@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_MISSILEPATTERN_H__
-#define __BLT_MISSILEPATTERN_H__
+#ifndef __YAKBLT_MISSILEPATTERN_H__
+#define __YAKBLT_MISSILEPATTERN_H__
 
 #include "../scripter.hpp"
 

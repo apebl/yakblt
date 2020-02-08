@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_RANDOM_H__
-#define __BLT_RANDOM_H__
+#ifndef __YAKBLT_RANDOM_H__
+#define __YAKBLT_RANDOM_H__
 
 #include <climits>
 #include <limits>

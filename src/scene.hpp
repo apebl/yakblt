@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_SCENE_H__
-#define __BLT_SCENE_H__
+#ifndef __YAKBLT_SCENE_H__
+#define __YAKBLT_SCENE_H__
 
 #include "node.hpp"
 #include "event.hpp"

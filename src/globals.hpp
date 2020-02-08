@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_GLOBALS_H__
-#define __BLT_GLOBALS_H__
+#ifndef __YAKBLT_GLOBALS_H__
+#define __YAKBLT_GLOBALS_H__
 
 #include <SFML/Graphics.hpp>
 

@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_COLLISIONS_H__
-#define __BLT_COLLISIONS_H__
+#ifndef __YAKBLT_COLLISIONS_H__
+#define __YAKBLT_COLLISIONS_H__
 
 #include <cmath>
 #include <SFML/System.hpp>

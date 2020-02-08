@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_MISSILE_H__
-#define __BLT_MISSILE_H__
+#ifndef __YAKBLT_MISSILE_H__
+#define __YAKBLT_MISSILE_H__
 
 #include "destroyablebullet.hpp"
 #include "../scheduler.hpp"

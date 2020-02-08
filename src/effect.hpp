@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_EFFECT_H__
-#define __BLT_EFFECT_H__
+#ifndef __YAKBLT_EFFECT_H__
+#define __YAKBLT_EFFECT_H__
 
 #include "node.hpp"
 

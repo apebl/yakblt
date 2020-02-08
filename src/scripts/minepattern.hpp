@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_MINEPATTERN_H__
-#define __BLT_MINEPATTERN_H__
+#ifndef __YAKBLT_MINEPATTERN_H__
+#define __YAKBLT_MINEPATTERN_H__
 
 #include "../scripter.hpp"
 

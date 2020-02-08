@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_SHAPERENDERER_H__
-#define __BLT_SHAPERENDERER_H__
+#ifndef __YAKBLT_SHAPERENDERER_H__
+#define __YAKBLT_SHAPERENDERER_H__
 
 #include <SFML/Graphics.hpp>
 #include "math.hpp"

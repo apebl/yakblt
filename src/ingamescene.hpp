@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_INGAMESCENE_H__
-#define __BLT_INGAMESCENE_H__
+#ifndef __YAKBLT_INGAMESCENE_H__
+#define __YAKBLT_INGAMESCENE_H__
 
 #include "scene.hpp"
 #include "world.hpp"

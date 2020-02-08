@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_MATH_H__
-#define __BLT_MATH_H__
+#ifndef __YAKBLT_MATH_H__
+#define __YAKBLT_MATH_H__
 
 #include <cmath>
 #include <SFML/System.hpp>

@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_ASSETMANAGER_H__
-#define __BLT_ASSETMANAGER_H__
+#ifndef __YAKBLT_ASSETMANAGER_H__
+#define __YAKBLT_ASSETMANAGER_H__
 
 #include <unordered_map>
 #include <SFML/System.hpp>

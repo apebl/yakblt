@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_GRID_H__
-#define __BLT_GRID_H__
+#ifndef __YAKBLT_GRID_H__
+#define __YAKBLT_GRID_H__
 
 #include <vector>
 #include <type_traits>

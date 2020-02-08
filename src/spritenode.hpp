@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_SPRITENODE_H__
-#define __BLT_SPRITENODE_H__
+#ifndef __YAKBLT_SPRITENODE_H__
+#define __YAKBLT_SPRITENODE_H__
 
 #include "node.hpp"
 

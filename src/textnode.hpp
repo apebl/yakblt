@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_TEXTNODE_H__
-#define __BLT_TEXTNODE_H__
+#ifndef __YAKBLT_TEXTNODE_H__
+#define __YAKBLT_TEXTNODE_H__
 
 #include "node.hpp"
 

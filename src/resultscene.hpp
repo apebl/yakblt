@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_RESULTSCENE_H__
-#define __BLT_RESULTSCENE_H__
+#ifndef __YAKBLT_RESULTSCENE_H__
+#define __YAKBLT_RESULTSCENE_H__
 
 #include "scene.hpp"
 #include <TGUI/TGUI.hpp>

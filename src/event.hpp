@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_EVENT_H__
-#define __BLT_EVENT_H__
+#ifndef __YAKBLT_EVENT_H__
+#define __YAKBLT_EVENT_H__
 
 #include <unordered_map>
 #include <functional>

@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_ASSETS_H__
-#define __BLT_ASSETS_H__
+#ifndef __YAKBLT_ASSETS_H__
+#define __YAKBLT_ASSETS_H__
 
 #define FONT "Xolonium-Regular.ttf"
 

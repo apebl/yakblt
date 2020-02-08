@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_SCHEDULER_H__
-#define __BLT_SCHEDULER_H__
+#ifndef __YAKBLT_SCHEDULER_H__
+#define __YAKBLT_SCHEDULER_H__
 
 #include "event.hpp"
 

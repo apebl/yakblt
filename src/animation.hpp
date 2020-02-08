@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_ANIMATION_H__
-#define __BLT_ANIMATION_H__
+#ifndef __YAKBLT_ANIMATION_H__
+#define __YAKBLT_ANIMATION_H__
 
 #include <vector>
 #include <SFML/System.hpp>

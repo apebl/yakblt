@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_MAINGUI_H__
-#define __BLT_MAINGUI_H__
+#ifndef __YAKBLT_MAINGUI_H__
+#define __YAKBLT_MAINGUI_H__
 
 #include "node.hpp"
 #include "world.hpp"

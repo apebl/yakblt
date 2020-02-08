@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_APP_H__
-#define __BLT_APP_H__
+#ifndef __YAKBLT_APP_H__
+#define __YAKBLT_APP_H__
 
 #include <deque>
 #include "assetmanager.hpp"

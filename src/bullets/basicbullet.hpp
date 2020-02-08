@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_BASICBULLET_H__
-#define __BLT_BASICBULLET_H__
+#ifndef __YAKBLT_BASICBULLET_H__
+#define __YAKBLT_BASICBULLET_H__
 
 #include "../bullet.hpp"
 

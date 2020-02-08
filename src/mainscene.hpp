@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_MAINSCENE_H__
-#define __BLT_MAINSCENE_H__
+#ifndef __YAKBLT_MAINSCENE_H__
+#define __YAKBLT_MAINSCENE_H__
 
 #include "ingamescene.hpp"
 #include "scheduler.hpp"

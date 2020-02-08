@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_UNIT_H__
-#define __BLT_UNIT_H__
+#ifndef __YAKBLT_UNIT_H__
+#define __YAKBLT_UNIT_H__
 
 #include "gridentity.hpp"
 #include "scripter.hpp"

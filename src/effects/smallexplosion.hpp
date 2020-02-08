@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_SMALLEXPLOSION_H__
-#define __BLT_SMALLEXPLOSION_H__
+#ifndef __YAKBLT_SMALLEXPLOSION_H__
+#define __YAKBLT_SMALLEXPLOSION_H__
 
 #include "../effect.hpp"
 #include "../animation.hpp"

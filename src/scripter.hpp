@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_SCRIPTER_H__
-#define __BLT_SCRIPTER_H__
+#ifndef __YAKBLT_SCRIPTER_H__
+#define __YAKBLT_SCRIPTER_H__
 
 #include <vector>
 #include <deque>

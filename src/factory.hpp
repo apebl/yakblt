@@ -22,8 +22,8 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef __BLT_FACTORY_H__
-#define __BLT_FACTORY_H__
+#ifndef __YAKBLT_FACTORY_H__
+#define __YAKBLT_FACTORY_H__
 
 #include <string>
 #include "bullet.hpp"
