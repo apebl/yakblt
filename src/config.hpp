@@ -35,7 +35,7 @@
  * This macro is defined if debug mode is enabled.
  */
 
-#define TITLE "yakblt: Just A Bullet Game"
+#define TITLE "yakblt: A simple bullet-dodging game"
 #define WINDOW_WIDTH 1280
 #define WINDOW_HEIGHT 720
 #define VSYNC false
