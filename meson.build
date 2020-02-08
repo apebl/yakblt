@@ -1,5 +1,5 @@
 project('yakblt', 'cpp',
-	version: '2019.08.31',
+	version: '2020.02.08',
 	license: 'MIT',
 	meson_version: '>=0.50.0',
 	default_options : ['cpp_std=c++14'])
