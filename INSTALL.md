@@ -1,5 +1,9 @@
 # Installation
 
+## Flatpak
+
+[![Download on Flathub](https://flathub.org/assets/badges/flathub-badge-en.svg)](https://flathub.org/apps/details/org.kosmospredanie.Yakblt)
+
 ## Building
 
 ### Build requirements
