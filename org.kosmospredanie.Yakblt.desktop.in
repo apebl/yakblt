@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Yakblt
-Comment=Just a simple bullet game
+Comment=A simple bullet-dodging game
 Exec="@install_path@/yakblt"
 Path=@install_path@
 Terminal=false

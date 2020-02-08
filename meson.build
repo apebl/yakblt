@@ -27,8 +27,8 @@ install_dir = get_option('gamedir') / 'yakblt'
 subdir('src')
 
 configure_file(
-	input: 'yakblt.desktop.in',
-	output: 'yakblt.desktop',
+	input: 'org.kosmospredanie.Yakblt.desktop.in',
+	output: 'org.kosmospredanie.Yakblt.desktop',
 	configuration: {
 		'install_path': get_option('prefix') / install_dir
 	},
@@ -36,7 +36,7 @@ configure_file(
 	install_dir: install_dir
 )
 meson.add_install_script('ln', '-fs',
-	get_option('prefix') / install_dir / 'yakblt.desktop',
-	get_option('prefix') / get_option('datadir') / 'applications' / 'yakblt.desktop')
+	get_option('prefix') / install_dir / 'org.kosmospredanie.Yakblt.desktop',
+	get_option('prefix') / get_option('datadir') / 'applications' / 'org.kosmospredanie.Yakblt.desktop')
 install_subdir('assets', install_dir: install_dir)
 install_data('icon.svg', install_dir: install_dir)

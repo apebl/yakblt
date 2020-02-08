@@ -73,6 +73,6 @@ build.
 
 ```sh
 ninja -C _build uninstall
-rm <prefix>/<datadir>/applications/yakblt.desktop
+rm <prefix>/<datadir>/applications/org.kosmospredanie.Yakblt.desktop
 rm <prefix>/<bindir>/yakblt
 ```
