@@ -1,0 +1,5 @@
+#!/bin/sh
+
+pushd "@install_path@"
+./yakblt
+popd

@@ -4,6 +4,8 @@ project('yakblt', 'cpp',
 	meson_version: '>=0.49.0',
 	default_options : ['cpp_std=c++14'])
 
+app_id = 'org.kosmospredanie.Yakblt'
+
 sfml_reqs = '2.5.1'
 sfmlsystem_dep = dependency('sfml-system', version: '>=' + sfml_reqs)
 sfmlwindow_dep = dependency('sfml-window', version: '>=' + sfml_reqs)
@@ -23,20 +25,8 @@ dependencies = [
 ]
 
 install_dir = get_option('gamedir') / 'yakblt'
+install_subdir('assets', install_dir: install_dir)
 
+subdir('data')
 subdir('src')
 
-configure_file(
-	input: 'org.kosmospredanie.Yakblt.desktop.in',
-	output: 'org.kosmospredanie.Yakblt.desktop',
-	configuration: {
-		'install_path': get_option('prefix') / install_dir
-	},
-	install: true,
-	install_dir: install_dir
-)
-meson.add_install_script('ln', '-fs',
-	get_option('prefix') / install_dir / 'org.kosmospredanie.Yakblt.desktop',
-	get_option('prefix') / get_option('datadir') / 'applications' / 'org.kosmospredanie.Yakblt.desktop')
-install_subdir('assets', install_dir: install_dir)
-install_data('icon.svg', install_dir: install_dir)

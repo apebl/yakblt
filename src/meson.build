@@ -103,7 +103,3 @@ yakblt_exe = executable('yakblt', sources,
 	install: true,
 	install_dir: install_dir
 )
-
-meson.add_install_script('ln', '-fs',
-	get_option('prefix') / install_dir / 'yakblt',
-	get_option('prefix') / get_option('bindir') / 'yakblt')

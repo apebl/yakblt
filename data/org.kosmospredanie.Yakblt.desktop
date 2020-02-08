@@ -1,9 +1,8 @@
 [Desktop Entry]
 Name=Yakblt
 Comment=A simple bullet-dodging game
-Exec="@install_path@/yakblt"
-Path=@install_path@
+Exec=org.kosmospredanie.Yakblt
 Terminal=false
 Type=Application
-Icon=@install_path@/icon.svg
+Icon=org.kosmospredanie.Yakblt
 Categories=Game;

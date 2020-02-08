@@ -67,12 +67,6 @@ build.
 
 #### Uninstall
 
-- prefix: Installation prefix. e.g. /usr/local
-- datadir: Data file subdirectory. e.g. share
-- bindir: Executable subdirectory. e.g. bin
-
 ```sh
 ninja -C _build uninstall
-rm <prefix>/<datadir>/applications/org.kosmospredanie.Yakblt.desktop
-rm <prefix>/<bindir>/yakblt
 ```
