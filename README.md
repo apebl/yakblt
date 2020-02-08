@@ -1,6 +1,6 @@
 # yakblt
 
-[![Short video](short-mov.gif)](short-mov.mp4)
+[![Screenshot](screenshot.png)](short-mov.mp4)
 
 A simple bullet-dodging game written in C++.
 
