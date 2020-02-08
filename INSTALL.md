@@ -1,11 +1,13 @@
-# Building yakblt
+# Installation
 
-## Build requirements
+## Building
+
+### Build requirements
 
 - meson >= 0.49
 - ninja (or other meson backend to use)
 
-## Dependencies
+### Dependencies
 
 - sfml >= 2.5.1
 	- sfml-system
@@ -15,9 +17,9 @@
 - tgui >= 0.8
 - libgnome-games-support >= 1.4.4
 
-### Install dependencies
+#### Install dependencies
 
-#### Ubuntu
+##### Ubuntu
 
 ```sh
 sudo add-apt-repository ppa:texus/tgui-0.8
@@ -25,14 +27,14 @@ sudo apt-get update
 sudo apt-get install libsfml-dev libtgui-dev
 ```
 
-#### Arch Linux
+##### Arch Linux
 
 ```sh
-sudo pacman -S sfml
-yay -S tgui # yay is an AUR helper
+sudo pacman -S yay sfml
+yay -S tgui
 ```
 
-## Build
+### Build
 
 ```sh
 cd yakblt
@@ -46,7 +48,7 @@ And run the game:
 _build/src/yakblt
 ```
 
-### Debug mode
+#### Debug mode
 
 In order to enable debug mode, add `-Ddebug_mode=true` option to meson build:
 
@@ -56,14 +58,14 @@ meson _build --buildtype=release -Ddebug_mode=true
 
 ![Debug mode](debug.jpg)
 
-### Install
+#### Install
 
 Run (sudo) `ninja -C _build install` after meson build.
 
 You can specify the installation prefix by adding a `--prefix` option to meson
 build.
 
-### Uninstall
+#### Uninstall
 
 - prefix: Installation prefix. e.g. /usr/local
 - datadir: Data file subdirectory. e.g. share
