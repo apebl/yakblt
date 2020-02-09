@@ -46,8 +46,14 @@ namespace {
 	}
 
 	const string getHomeDir () {
+		/* XDG */
+		char *path = getenv("XDG_DATA_HOME");
+		if (path != NULL) {
+			return string(path);
+		}
+
 		/* Unix */
-		char *path = getenv("HOME");
+		path = getenv("HOME");
 		if (path != NULL) {
 			return string(path);
 		}
