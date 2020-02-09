@@ -2,8 +2,3 @@ option('debug_mode',
 	type: 'boolean',
 	value: false,
 	description: 'Whether to enable debug mode')
-
-option('gamedir',
-	type: 'string',
-	value: 'games',
-	description: 'Subdirectory where games installed')

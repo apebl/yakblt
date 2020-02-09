@@ -24,7 +24,7 @@ dependencies = [
 	tgui_dep
 ]
 
-install_dir = get_option('gamedir') / 'yakblt'
+install_dir = get_option('datadir') / 'games' / 'yakblt'
 install_subdir('assets', install_dir: install_dir)
 
 subdir('data')
