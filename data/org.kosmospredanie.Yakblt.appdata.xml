@@ -35,6 +35,7 @@
 	<launchable type="desktop-id">org.kosmospredanie.Yakblt.desktop</launchable>
 
 	<releases>
+		<release version="2020.02.10" date="2020-02-10" />
 		<release version="2020.02.09" date="2020-02-09" />
 		<release version="2020.02.08" date="2020-02-08" />
 		<release version="2019.08.31" date="2019-08-31" />
