@@ -7,9 +7,9 @@ xmlns:foaf="http://xmlns.com/foaf/0.1/">
 	<programming-language>C++</programming-language>
 	<license rdf:resource="https://opensource.org/licenses/MIT" />
 
-	<homepage rdf:resource="https://gitlab.com/kosmospredanie/yakblt" />
-	<download-page rdf:resource="https://gitlab.com/kosmospredanie/yakblt/tags" />
-	<bug-database rdf:resource="https://gitlab.com/kosmospredanie/yakblt/issues" />
+	<homepage rdf:resource="https://github.com/kosmospredanie/yakblt" />
+	<download-page rdf:resource="https://github.com/kosmospredanie/yakblt/releases" />
+	<bug-database rdf:resource="https://github.com/kosmospredanie/yakblt/issues" />
 
 	<shortdesc xml:lang="en">A simple bullet-dodging game</shortdesc>
 

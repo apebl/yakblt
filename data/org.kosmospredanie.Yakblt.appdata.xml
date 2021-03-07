@@ -22,13 +22,13 @@
 	</provides>
 
 	<developer_name>Космическое П.</developer_name>
-	<url type="homepage">https://gitlab.com/kosmospredanie/yakblt</url>
-	<url type="bugtracker">https://gitlab.com/kosmospredanie/yakblt/issues</url>
+	<url type="homepage">https://github.com/kosmospredanie/yakblt</url>
+	<url type="bugtracker">https://github.com/kosmospredanie/yakblt/issues</url>
 
 	<screenshots>
 		<screenshot type="default">
 			<caption>Game screenshot</caption>
-			<image>https://gitlab.com/kosmospredanie/yakblt/-/raw/master/screenshot.png</image>
+			<image>https://raw.githubusercontent.com/kosmospredanie/yakblt/master/screenshot.png</image>
 		</screenshot>
 	</screenshots>
 
